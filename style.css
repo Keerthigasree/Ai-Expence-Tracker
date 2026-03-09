@@ -1,0 +1,58 @@
+body{
+font-family:Arial;
+background:linear-gradient(to right,#1f9a8a,#63c3a7);
+color:white;
+text-align:center;
+}
+
+.dashboard{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:rgba(255,255,255,0.2);
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+
+input{
+display:block;
+width:90%;
+margin:10px auto;
+padding:10px;
+border-radius:8px;
+border:none;
+}
+
+button{
+padding:10px 20px;
+background:#00ff88;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+table{
+width:100%;
+background:white;
+color:black;
+border-collapse:collapse;
+}
+
+td,th{
+padding:8px;
+border:1px solid gray;
+}
+
+#chatbox{
+height:150px;
+background:white;
+color:black;
+overflow:auto;
+margin-bottom:10px;
+padding:10px;
+}
